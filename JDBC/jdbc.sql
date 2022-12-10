@@ -1,1 +1,0 @@
-create database jdbc_practice;
