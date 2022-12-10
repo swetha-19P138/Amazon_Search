@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T13:36:45 IST" name="Suite" finished-at="2022-12-07T13:39:05 IST" duration-ms="139804">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T13:36:45 IST" name="Test Chrome" finished-at="2022-12-07T13:37:52 IST" duration-ms="67314">
+      <class name="com.qa.testscripts.AmazonSearch">
+        <test-method is-config="true" signature="open_browswe(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:36:45 IST" name="open_browswe" finished-at="2022-12-07T13:37:04 IST" duration-ms="19267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browswe -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:37:13 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:37:19 IST" duration-ms="6342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:37:19 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:37:24 IST" duration-ms="4600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Furniture]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:37:24 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:37:36 IST" duration-ms="11763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Watches]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Titan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:37:36 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:37:45 IST" duration-ms="9573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The Republic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:37:45 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:37:46 IST" duration-ms="707" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Greeting card]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Cards
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-URGIKAB', ip: '10.56.5.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Cards
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-URGIKAB', ip: '10.56.5.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.qa.testscripts.AmazonSearch.getTest(AmazonSearch.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.testscripts.AmazonSearch@e15b7e8]" started-at="2022-12-07T13:37:46 IST" name="close" finished-at="2022-12-07T13:37:52 IST" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.testscripts.AmazonSearch -->
+    </test> <!-- Test Chrome -->
+    <test started-at="2022-12-07T13:37:52 IST" name="Test Edge" finished-at="2022-12-07T13:39:05 IST" duration-ms="72402">
+      <class name="com.qa.testscripts.AmazonSearch">
+        <test-method is-config="true" signature="open_browswe(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:37:52 IST" name="open_browswe" finished-at="2022-12-07T13:38:26 IST" duration-ms="34023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browswe -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:38:27 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:38:40 IST" duration-ms="12963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:38:40 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:38:45 IST" duration-ms="5168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Furniture]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:38:45 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:38:54 IST" duration-ms="8237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Watches]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Titan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:38:54 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:39:01 IST" duration-ms="7690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The Republic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:39:01 IST" name="getTest" data-provider="getdata" finished-at="2022-12-07T13:39:01 IST" duration-ms="108" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Greeting card]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Cards
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-URGIKAB', ip: '10.56.5.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Cards
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-URGIKAB', ip: '10.56.5.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.qa.testscripts.AmazonSearch.getTest(AmazonSearch.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.testscripts.AmazonSearch@1b11171f]" started-at="2022-12-07T13:39:01 IST" name="close" finished-at="2022-12-07T13:39:05 IST" duration-ms="3482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.testscripts.AmazonSearch -->
+    </test> <!-- Test Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

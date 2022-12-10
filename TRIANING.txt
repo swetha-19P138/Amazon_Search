@@ -1,0 +1,54 @@
+Testing :
+
+check whether the actual(created by developers) product matches the customer's requirements.
+
+IMPORTANT OF TESTING :  
+
+whether it contains bug-free or not
+whether we missed any requirements
+
+
+REASON FOR TESTING :
+
+find bugs in an earlier stage 
+quality of product
+secured product 
+enhancing the quality (requirements )
+enhancing the security 
+
+Types of Testing :
+
+static - testing before completing the code, is just verification, to check whether the product  is crt or not, reviews, inspections 
+dynamics - testing after compilation / it checks the code.
+
+dynamic => 1.Functional , 2.Non functional 
+ 
+functional - how to system behaves or works,
+to check the system behaviors - there are two ways: white box testing and black box testing 
+black box: only test with input and output, we will not have code, commonly these are used by testers 
+white-box: check by code, mostly used by developers.
+
+
+Non Functional: check how was the scalability usability  performance, how it can be recovered from risk
+
+
+Other types of testing :
+ Manual testing, Automation testing 
+In manual testing  : we debug the code  manually 
+In automation testing :   it have some automation tools , we have to write a scripts for the testing and  execute  it
+
+Advantage ofmanual testing :
+Accurate feedback, less expensive,visual testing , debugging is easier 
+
+
+Automation testing :
+Accurate product , can be test parallel , less Time , reporting is easy, increase in productivity and quality 
+
+
+WHEN?:
+Not all the time automation testing used . Automaton were used only when these factors are  available 
+
+=>Repetitive task (like fb  task)
+=>Functional testing 
+=>Oerformance and load testing (what when more number of user use that application at the time )
+=>Advanced GUI -Like face recoginization 
